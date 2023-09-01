@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//falta retirar o null
 const char* minhaFuncao() {
     char frase[] = "Rodou!!";
     return frase;
@@ -20,7 +20,7 @@ int main() {
             printf("Caso 3\n");
             break;
         default:
-            printf("Caso padr„o\n");
+            printf("Caso padr√£o\n");
     }
 
     return 0;
